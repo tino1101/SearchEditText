@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:searchEditText="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F4F6">
+
+    <com.jun.searchedittext.SearchEditText
+        android:id="@+id/search_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_text_bg"
+        android:cursorVisible="false"
+        android:gravity="center"
+        android:textColor="#333333"
+        android:textSize="14sp"
+        searchEditText:hint="搜索内容"
+        searchEditText:iconSpacing="5dp"
+        searchEditText:searchIcon="@mipmap/ic_search"
+        searchEditText:searchIconDimen="15dp"
+        searchEditText:textColorHint="#999999"
+        searchEditText:textSizeHint="14sp" />
+
+</LinearLayout>
